@@ -11,7 +11,6 @@ The easiest way is to use `bin/create_cask` and an associcated YAML config file.
 ```yaml
 ---
 'my-name':
-    class: 'MyName'
     version: '1'
     deps:
         - 'jdk'
