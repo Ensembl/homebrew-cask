@@ -1,4 +1,4 @@
-# ensembl-cask
+# homebrew-cask
 
 ## Description
 A collection of brew meta formulas who depends on a number of other formulas and installs a binary to list these.
