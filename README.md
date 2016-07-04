@@ -34,7 +34,7 @@ This will generate a file called `my-name.rb` in the current working directory.
 The dependency will run, homebrew will bring in all external dependencies and finally write a binary to the Cellar named `my-name`. When this is run the output will look like
 
 ```
-homebrew/core/jdk  8.28  /homebrew/Cellar/jdk/8.28
+jdk  8.28  /homebrew/Cellar/jdk/8.28
 homebrew/science/hdf5  1.1  /homebrew/Cellar/hdf5/1.1
 ```
 
