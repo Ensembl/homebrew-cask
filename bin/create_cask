@@ -44,7 +44,7 @@ class <%= @class %> < Formula
       file.write '#!/bin/sh'+"\\n"
       deps.each do | dep |
         f = dep.to_formula
-        file.write "echo "+[f.full_name, f.version, f.path].join("\\t")+"\\n"
+        file.write "echo "+[f.full_name, f.version, f.prefix].join("\\t")+"\\n"
       end
     }
     bin.install '<%= @name %>'
