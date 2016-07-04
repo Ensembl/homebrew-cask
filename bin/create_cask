@@ -10,7 +10,7 @@ class Template
   attr_accessor :class, :name, :version, :deps
   
   def initialize(name, config, date=Time.now)
-    @class = config['class']
+    @class = name.split('-').map(&:capitalize).join('')
     @name = name
     @version = config['version']
     @deps = config['deps']

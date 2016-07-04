@@ -1,6 +1,5 @@
 ---
 "ensembl-core":
-    class: EnsemblCore
     version: 1
     deps:
         - "ensembl/ensembl/exonerate22"
