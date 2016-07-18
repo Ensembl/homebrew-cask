@@ -1,0 +1,7 @@
+---
+"assembly-mapping":
+    version: 1
+    deps:
+        - "homebrew/science/lastz"
+        # kent needed for axtBest
+        - "ensembl/ensembl/kent"
