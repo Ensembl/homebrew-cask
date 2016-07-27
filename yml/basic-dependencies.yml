@@ -1,0 +1,7 @@
+---
+"basic-dependencies":
+    version: 1
+    deps:
+        - "git"
+        - "ack"
+        - "jdk"
