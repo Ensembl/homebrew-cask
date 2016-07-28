@@ -1,0 +1,5 @@
+---
+"cross-references":
+    version: 1
+    deps:
+        - "ensembl/ensembl/exonerate22"
