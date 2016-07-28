@@ -39,7 +39,7 @@ homebrew/science/hdf5  1.1  /homebrew/Cellar/hdf5/1.1
 ```
 
 ## assembly-mapping - A Worked Example
-Look at [the assembly-mapping.rb formula](https://github.com/Ensembl/homebrew-cask/blob/master/assembly-mapping.rb) for a generated formula. The config file for this is located in [yml/ensembl-core.yml](https://github.com/Ensembl/homebrew-cask/blob/master/yml/assembly-mapping.yml). Post installation you should expect the following output
+Look at [the assembly-mapping.rb formula](https://github.com/Ensembl/homebrew-cask/blob/master/assembly-mapping.rb) for a generated formula. The config file for this is located in [yml/assembly-mapping.yml](https://github.com/Ensembl/homebrew-cask/blob/master/yml/assembly-mapping.yml). Post installation you should expect the following output
 
 ```bash
 $ assembly-mapping
