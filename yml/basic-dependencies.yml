@@ -1,6 +1,6 @@
 ---
 "basic-dependencies":
-    version: 2
+    version: 3
     deps:
         - "git"
         - "ack"
@@ -8,3 +8,5 @@
         - "bzip2"
         - "readline"
         - "sqlite"
+        - "berkeley-db"
+        - "gdbm"
