@@ -1,7 +1,0 @@
----
-"ensembl-core":
-    version: 1
-    deps:
-        - "ensembl/ensembl/exonerate22"
-        - "homebrew/science/lastz"
-        - "jdk"
