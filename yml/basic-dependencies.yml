@@ -1,6 +1,6 @@
 ---
 "basic-dependencies":
-    version: 3
+    version: 4
     deps:
         - "git"
         - "ack"
@@ -9,4 +9,4 @@
         - "readline"
         - "sqlite"
         - "berkeley-db"
-        - "gdbm"
+        - "ensembl/ensembl/gdbm-compat"
