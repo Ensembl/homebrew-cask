@@ -38,12 +38,11 @@ jdk  8.28  /homebrew/Cellar/jdk/8.28
 homebrew/science/hdf5  1.1  /homebrew/Cellar/hdf5/1.1
 ```
 
-## ensembl-core - A Worked Example
-Look at [the ensembl-core.rb formula](https://github.com/Ensembl/homebrew-cask/blob/master/ensembl-core.rb) for a generated formula. The config file for this is located in [yml/ensembl-core.yml](https://github.com/Ensembl/homebrew-cask/blob/master/yml/ensembl-core.yml). Post installation you should expect the following output
+## assembly-mapping - A Worked Example
+Look at [the assembly-mapping.rb formula](https://github.com/Ensembl/homebrew-cask/blob/master/assembly-mapping.rb) for a generated formula. The config file for this is located in [yml/ensembl-core.yml](https://github.com/Ensembl/homebrew-cask/blob/master/yml/assembly-mapping.yml). Post installation you should expect the following output
 
 ```bash
-$ ensembl-core
-ensembl/ensembl/exonerate22 2.2.0 /path/to/linuxbrew/Cellar/exonerate22/2.2.0
-homebrew/science/lastz 1.02.00 /path/to/linuxbrew/Cellar/lastz/1.02.00
-jdk 1.8.0-60 /path/to/linuxbrew/Cellar/jdk/1.8.0-60
+$ assembly-mapping
+homebrew/science/lastz 1.02.00 /nfs/software/ensembl/RHEL7/linuxbrew/Cellar/lastz/1.02.00
+ensembl/ensembl/kent v331 /nfs/software/ensembl/RHEL7/linuxbrew/Cellar/kent/v331
 ```
