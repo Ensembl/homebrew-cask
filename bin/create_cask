@@ -20,6 +20,13 @@ class Template
   def render
     ERB.new(get_template()).result(binding)
   end
+  
+  def check?(original)
+    new_content = render
+    original_minus_date = original.split("\n")[1..-1].join("\n")
+    new_content_minus_date = new_content.split("\n")[1..-1].join("\n")
+    return original_minus_date == new_content_minus_date
+  end
 
   def save(file)
     File.open(file, "w+") do |f|
@@ -55,7 +62,7 @@ end
 end
 
 class App
-  VERSION = '1.0.0'
+  VERSION = '1.1.0'
   
   attr_reader :options
   attr_writer :opt_parser
@@ -113,10 +120,21 @@ class App
         @options[:quiet] = true
       end
     
-      opt.on('-c', '--config config', 'YAML config') do  |c|
-        raise OptionParser::InvalidArgument.new("No file found at given path #{c}") if ! File.exists?(c)
-        @options[:config] = c
-        @config = YAML.load_file(c)
+      opt.on('-c', '--config config', 'YAML config. Can also specify a glob e.g. yml/* or a directory') do  |c|
+        @options[:configs] = []
+        if File.directory? c
+          @options[:configs] = Dir.glob("#{c}/*.yml")
+        elsif File.file? c
+          @options[:configs] << c
+        elsif
+          @options[:configs] = Dir.glob(c) # assume it was a glob pattern
+        end
+        
+        if @options[:configs].empty?
+          raise OptionParser::InvalidArgument.new("No yml config files found at given path #{c}")
+        end
+        
+        @configs = @options[:configs].map { | config | puts config; YAML.load_file(config) }
       end
       
       opt.on('-d', '--dir dir', 'Output directory') do |d|
@@ -148,7 +166,7 @@ class App
   end
 
   def arguments_valid?
-    if ! @options[:config]
+    if ! @options[:configs]
       $stderr.puts "No --config given"
       exit 1
     end
@@ -163,11 +181,28 @@ class App
   end
 
   def process_command
-    @config.each do |k,v|
-      target = File.join(@options[:dir], "#{k}.rb")
-      template = Template.new(k,v)
-      puts "Processing #{k} and outputting to #{target}\n" if @options[:verbose]
-      template.save(target)
+    @configs.each do |config|
+      config.each do |k,v|
+        target = File.join(@options[:dir], "#{k}.rb")
+        
+        template = Template.new(k,v)
+
+        # If the target exists then check
+        write_content = true
+        if File.exists? target
+          original_content = File.read target
+          if template.check? original_content
+            write_content = false
+          end
+        end
+        
+        if write_content
+          puts "Processing #{k} and outputting to #{target}\n" if @options[:verbose]
+          template.save(target)
+        else
+          puts "Skipping #{k} as content was the same as found in #{target}\n" if @options[:verbose]
+        end
+      end
     end
   end
 end

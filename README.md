@@ -29,6 +29,14 @@ Assuming the above config is stored in a file called my-name.yml we call it like
 
 This will generate a file called `my-name.rb` in the current working directory.
 
+You can also give a glob or directory to the command to process multiple files at the same time. The code will only update if the file content has changed (it ignores the generated at date line)
+
+```bash
+./bin/create_cask --verbose --config yml/* --dir $PWD
+# or
+./bin/create_cask --verbose --config yml/ --dir $PWD
+```
+
 ### Output
 
 The dependency will run, homebrew will bring in all external dependencies and finally write a binary to the Cellar named `my-name`. When this is run the output will look like
