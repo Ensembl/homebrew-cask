@@ -1,7 +1,10 @@
 ---
 "basic-dependencies":
-    version: 1
+    version: 2
     deps:
         - "git"
         - "ack"
         - "jdk"
+        - "bzip2"
+        - "readline"
+        - "sqlite"
