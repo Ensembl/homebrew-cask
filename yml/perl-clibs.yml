@@ -1,0 +1,7 @@
+---
+"perl-clibs":
+    version: 1
+    deps:
+        - "mysql-connector-c"
+        - "ensembl/ensembl/kent"
+        - "ensembl/ensembl/htslib"
