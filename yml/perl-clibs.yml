@@ -1,7 +1,8 @@
 ---
 "perl-clibs":
-    version: 1
+    version: 2
     deps:
         - "mysql-connector-c"
         - "ensembl/ensembl/kent"
         - "ensembl/ensembl/htslib"
+        - "ensembl/ensembl/postgres-client"
