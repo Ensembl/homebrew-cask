@@ -1,6 +1,6 @@
 ---
 "basic-dependencies":
-    version: 5
+    version: 6
     deps:
         - "git"
         - "ack"
@@ -9,6 +9,7 @@
         - "readline"
         - "sqlite"
         - "berkeley-db"
-        - "ensembl/ensembl/gdbm-compat"
+        - "formula" : "gdbm"
+          "options" : ["with-libgdbm-compat"]
         - "ant"
         - "maven"
