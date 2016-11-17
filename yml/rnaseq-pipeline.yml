@@ -1,0 +1,11 @@
+---
+"rnaseq-pipeline":
+    version: 1
+    deps:
+        - "ensembl/ensembl/samtools"
+        - "ensembl/ensembl/exonerate09"
+        - "ensembl/ensembl/bwa-051mt"
+        - "ensembl/ensembl/ensc"
+        - "ensembl/ensembl/picard-tools"
+        - "ensembl/ensembl/bioperl-161"
+        - "ensembl/ensembl/blast"

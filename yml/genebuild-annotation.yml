@@ -1,0 +1,27 @@
+---
+"genebuild-annotation":
+    version: 2.4
+    deps:
+        - "ensembl/ensembl/exonerate09"
+        - "ensembl/ensembl/exonerate22"
+        - "ensembl/ensembl/ensc"
+        - "ensembl/ensembl/bioperl-161"
+        - "ensembl/ensembl/blast"
+        - "ensembl/ensembl/eponine"
+        - "homebrew/science/genewise"
+        - "homebrew/science/trnascan"
+        - "ensembl/moonshine/genscan"
+        - "ensembl/moonshine/pmatch"
+        - "ensembl/ensembl/genblast"
+        - "ensembl/ensembl/vienna-rna"
+        - "homebrew/science/infernal"
+        - "homebrew/science/muscle"
+        - "ensembl/ensembl/kent"
+        - "ensembl/ensembl/rmblast"
+        - "homebrew/science/trf"
+        - "homebrew/science/recon"
+        - "homebrew/science/repeatscout"
+        - "ensembl/ensembl/repeatmodeler"
+        - "ensembl/ensembl/repeatmasker"
+        - "ensembl/moonshine/tcdust"
+
