@@ -12,7 +12,7 @@
         - "ensembl/homebrew-ensembl/hclustersg"
         - "ensembl/homebrew-ensembl/treebest"
         - "ensembl/homebrew-ensembl/quicktree"
-        - "homebrew/homebrew-core/Formula/codemod"
+        - "codemod"
         - "ensembl/homebrew-ensembl/ktreedist"
         - "ensembl/homebrew-icc/raxml"
         - "ensembl/homebrew-ensembl/raxml-get-patterns"

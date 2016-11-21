@@ -19,7 +19,7 @@ class ComparaTeam < Formula
   depends_on 'ensembl/homebrew-ensembl/hclustersg'
   depends_on 'ensembl/homebrew-ensembl/treebest'
   depends_on 'ensembl/homebrew-ensembl/quicktree'
-  depends_on 'homebrew/homebrew-core/Formula/codemod'
+  depends_on 'codemod'
   depends_on 'ensembl/homebrew-ensembl/ktreedist'
   depends_on 'ensembl/homebrew-icc/raxml'
   depends_on 'ensembl/homebrew-ensembl/raxml-get-patterns'
