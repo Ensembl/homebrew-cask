@@ -32,5 +32,4 @@
         - "ensembl/ensembl/phast"
         - "homebrew/science/lastz"
         - "ensembl/ensembl/kent"
-        - "homebrew/science/blat"
         - "ensembl/ensembl/parsimonator"

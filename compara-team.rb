@@ -39,7 +39,6 @@ class ComparaTeam < Formula
   depends_on 'ensembl/ensembl/phast'
   depends_on 'homebrew/science/lastz'
   depends_on 'ensembl/ensembl/kent'
-  depends_on 'homebrew/science/blat'
   depends_on 'ensembl/ensembl/parsimonator'
 
   def install
