@@ -1,8 +1,9 @@
 ---
 "basic-dependencies":
-    version: 6
+    version: 7
     deps:
         - "git"
+        - "autoconf"
         - "ack"
         - "jdk"
         - "bzip2"
