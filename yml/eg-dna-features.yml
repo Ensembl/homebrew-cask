@@ -1,0 +1,9 @@
+---
+"eg-dna-features":
+    version: 1
+    deps:
+        # BLAST required for dustmasker
+        - "ensembl/ensembl/blast"
+        - "ensembl/ensembl/repeatmasker"
+        - "ensembl/ensembl/repeatmodeler"
+        - "homebrew/science/trf"

@@ -1,0 +1,18 @@
+---
+# Required for AlignmentXref, BlastProtein, SequenceAlignment pipelines
+"eg-alignment":
+    version: 1
+    deps:
+        - "ensembl/ensembl/blast"
+        # EMBOSS required for 'trimest'
+        - "ensembl/ensembl/emboss"
+        - "ensembl/ensembl/exonerate22"
+        # exonerate version 2.4.0 required for exonerate-server functionality
+        - "ensembl/ensembl/exonerate24"
+        - "homebrew/science/genometools"
+        - "homebrew/science/bowtie2"
+        - "homebrew/science/bwa"
+        - "homebrew/science/gmap-gsnap"
+        - "homebrew/science/hisat2"
+        - "ensembl/ensembl/star-aligner"
+        - "homebrew/science/tophat"
