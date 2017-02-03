@@ -14,7 +14,7 @@
         - "ensembl/moonshine/pmatch"
         - "ensembl/ensembl/genblast"
         - "ensembl/ensembl/vienna-rna"
-        - "homebrew/science/infernal"
+        - "ensembl/ensembl/infernal"
         - "homebrew/science/muscle"
         - "ensembl/ensembl/kent"
         - "ensembl/ensembl/rmblast"
