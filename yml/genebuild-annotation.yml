@@ -1,6 +1,6 @@
 ---
 "genebuild-annotation":
-    version: 2.4
+    version: 2.6
     deps:
         - "ensembl/ensembl/exonerate09"
         - "ensembl/ensembl/exonerate22"
@@ -14,7 +14,7 @@
         - "ensembl/moonshine/pmatch"
         - "ensembl/ensembl/genblast"
         - "ensembl/ensembl/vienna-rna"
-        - "ensembl/ensembl/infernal"
+        - "ensembl/ensembl/infernal10"
         - "homebrew/science/muscle"
         - "ensembl/ensembl/kent"
         - "ensembl/ensembl/rmblast"
