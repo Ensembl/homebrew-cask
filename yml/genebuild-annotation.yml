@@ -1,6 +1,6 @@
 ---
 "genebuild-annotation":
-    version: 2.6
+    version: 2.7
     deps:
         - "ensembl/ensembl/exonerate09"
         - "ensembl/ensembl/exonerate22"
@@ -24,4 +24,6 @@
         - "ensembl/ensembl/repeatmodeler"
         - "ensembl/ensembl/repeatmasker"
         - "ensembl/moonshine/tcdust"
+        - "homebrew/science/sratoolkit"
+        - "ensembl/ensembl/aspera-client"
 
