@@ -8,7 +8,8 @@ class EgFileIo < Formula
   desc 'Dependencies for the EgFileIo formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
   version '1'
-
+  
+  depends_on 'homebrew/science/bedtools'
   depends_on 'homebrew/science/genometools'
   depends_on 'ensembl/ensembl/maftools'
   depends_on 'homebrew/science/newick-utils'
