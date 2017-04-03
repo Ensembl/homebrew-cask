@@ -1,0 +1,5 @@
+---
+"funcgen":
+    version: 0.1
+    deps:
+        - "ensembl/ensembl/moods"
