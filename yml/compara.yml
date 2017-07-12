@@ -11,7 +11,7 @@
         - "ensembl/ensembl/t-coffee"
         - "ensembl/ensembl/hclustersg"
         - "ensembl/ensembl/treebest"
-        - "ensembl/ensembl/quicktree"
+        - "homebrew/science/quicktree"
         - "ensembl/ensembl/paml43"
         - "ensembl/ensembl/ktreedist"
         - "ensembl/ensembl/raxml-get-patterns"
