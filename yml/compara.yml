@@ -1,6 +1,6 @@
 ---
 "compara-team":
-    version: 0.1
+    version: 0.2
     deps:
         - "ensembl/ensembl/exonerate22"
         - "homebrew/science/infernal"
@@ -37,3 +37,6 @@
         - "homebrew/science/cd-hit"
         - "ensembl/ensembl/pantherscore"
         - "ensembl/ensembl/enredo"
+        ## ICC dependencies cannot be described here (yet ?)
+        #- "ensembl/homebrew-icc/raxml"
+        #- "ensembl/homebrew-icc/examl"
