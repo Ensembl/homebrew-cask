@@ -17,7 +17,6 @@
         - "ensembl/ensembl/raxml-get-patterns"
         - "ensembl/ensembl/noisy"
         - "ensembl/ensembl/notung"
-        - "ensembl/ensembl/notung"
         - "ensembl/ensembl/pecan"
         - "ensembl/ensembl/ortheus"
         - "ensembl/ensembl/fasttree"

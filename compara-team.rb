@@ -24,7 +24,6 @@ class ComparaTeam < Formula
   depends_on 'ensembl/ensembl/raxml-get-patterns'
   depends_on 'ensembl/ensembl/noisy'
   depends_on 'ensembl/ensembl/notung'
-  depends_on 'ensembl/ensembl/notung'
   depends_on 'ensembl/ensembl/pecan'
   depends_on 'ensembl/ensembl/ortheus'
   depends_on 'ensembl/ensembl/fasttree'
