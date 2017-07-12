@@ -1,0 +1,23 @@
+---
+"compara-proteintrees":
+    version: 0.1
+    deps:
+        - "homebrew/science/hmmer"
+        - "homebrew/science/hmmer2"
+        - "ensembl/ensembl/blast"
+        - "homebrew/science/mafft"
+        - "ensembl/ensembl/t-coffee"
+        - "ensembl/ensembl/hclustersg"
+        - "ensembl/ensembl/treebest"
+        - "homebrew/science/quicktree"
+        - "ensembl/ensembl/paml43"
+        - "ensembl/ensembl/ktreedist"
+        - "ensembl/ensembl/raxml-get-patterns"
+        - "ensembl/ensembl/noisy"
+        - "ensembl/ensembl/notung"
+        - "ensembl/ensembl/fasttree"
+        - "ensembl/ensembl/prottest3"
+        - "homebrew/science/trimal"
+        - "ensembl/ensembl/cafe"
+        - "homebrew/science/cd-hit"
+        - "ensembl/ensembl/pantherscore"
