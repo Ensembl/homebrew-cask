@@ -32,3 +32,8 @@
         - "homebrew/science/lastz"
         - "ensembl/ensembl/kent"
         - "ensembl/ensembl/parsimonator"
+        - "ensembl/ensembl/cndsrc"
+        - "ensembl/ensembl/semphy"
+        - "homebrew/science/cd-hit"
+        - "ensembl/ensembl/pantherscore"
+        - "ensembl/ensembl/enredo"

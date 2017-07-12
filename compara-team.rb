@@ -39,6 +39,11 @@ class ComparaTeam < Formula
   depends_on 'homebrew/science/lastz'
   depends_on 'ensembl/ensembl/kent'
   depends_on 'ensembl/ensembl/parsimonator'
+  depends_on 'ensembl/ensembl/cndsrc'
+  depends_on 'ensembl/ensembl/semphy'
+  depends_on 'homebrew/science/cd-hit'
+  depends_on 'ensembl/ensembl/pantherscore'
+  depends_on 'ensembl/ensembl/enredo'
 
   def install
     File.open('compara-team', 'w') { |file|
