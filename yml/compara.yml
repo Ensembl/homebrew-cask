@@ -1,5 +1,5 @@
 ---
-"compara-team":
+"compara":
     version: 0.2
     deps:
         - "ensembl/ensembl/exonerate22"
