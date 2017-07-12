@@ -12,7 +12,7 @@
         - "ensembl/ensembl/hclustersg"
         - "ensembl/ensembl/treebest"
         - "ensembl/ensembl/quicktree"
-        - "codemod"
+        - "ensembl/ensembl/paml43"
         - "ensembl/ensembl/ktreedist"
         - "ensembl/ensembl/raxml-get-patterns"
         - "ensembl/ensembl/noisy"

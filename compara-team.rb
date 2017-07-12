@@ -19,7 +19,7 @@ class ComparaTeam < Formula
   depends_on 'ensembl/ensembl/hclustersg'
   depends_on 'ensembl/ensembl/treebest'
   depends_on 'ensembl/ensembl/quicktree'
-  depends_on 'codemod'
+  depends_on 'ensembl/ensembl/paml43'
   depends_on 'ensembl/ensembl/ktreedist'
   depends_on 'ensembl/ensembl/raxml-get-patterns'
   depends_on 'ensembl/ensembl/noisy'
