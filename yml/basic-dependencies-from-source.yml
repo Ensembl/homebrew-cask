@@ -1,0 +1,5 @@
+---
+"basic-dependencies-from-source":
+    version: 1
+    deps:
+        - "gettext"
