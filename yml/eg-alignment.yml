@@ -14,5 +14,4 @@
         - "homebrew/science/bwa"
         - "homebrew/science/gmap-gsnap"
         - "homebrew/science/hisat2"
-        - "ensembl/ensembl/star-aligner"
         - "homebrew/science/tophat"
