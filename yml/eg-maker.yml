@@ -1,0 +1,10 @@
+---
+# Required for Maker
+"eg-maker":
+    version: 1
+    deps:
+        - "gsl"
+        - "homebrew/science/suite-sparse"
+        - "homebrew/science/lp-solve"
+        - "formula" : "homebrew/science/augustus"
+          "options" : ["with-cgp"]
