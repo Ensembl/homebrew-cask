@@ -1,0 +1,6 @@
+---
+"icc":
+  version: 1
+  deps:
+    - ensembl/icc/examl
+    - ensembl/icc/raxml
