@@ -5,7 +5,6 @@
     deps:
         - "formula": "fontconfig"
           "options": ["without-docs"]
-        - "formula": "homebrew/science/genometools"
-          "options": ["without-pangocairo"]
+        - "homebrew/science/genometools"
         - "ensembl/ensembl/maftools"
         - "homebrew/science/newick-utils"
