@@ -1,7 +1,7 @@
 ---
 # Required for AlignmentXref, BlastProtein, SequenceAlignment pipelines
 "eg-alignment":
-    version: 1
+    version: 2
     deps:
         - "ensembl/ensembl/blast"
         # EMBOSS required for 'trimest'
@@ -9,6 +9,8 @@
         - "ensembl/ensembl/exonerate22"
         # exonerate version 2.4.0 required for exonerate-server functionality
         - "ensembl/ensembl/exonerate24"
+        - "formula": "fontconfig"
+          "options": ["without-docs"]
         - "homebrew/science/genometools"
         - "homebrew/science/bowtie2"
         - "homebrew/science/bwa"
