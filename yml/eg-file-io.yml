@@ -1,8 +1,10 @@
 ---
 # Required for FileDump* and LoadGFF3 pipelines
 "eg-file-io":
-    version: 1
+    version: 2
     deps:
-        - "homebrew/science/genometools"
+        - 
+            "formula": "homebrew/science/genometools"
+            "options": ["without-pangocairo"]
         - "ensembl/ensembl/maftools"
         - "homebrew/science/newick-utils"
