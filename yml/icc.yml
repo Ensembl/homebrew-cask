@@ -1,6 +1,7 @@
 ---
 "icc":
-  version: 1
+  version: 2
   deps:
     - ensembl/icc/examl
     - ensembl/icc/raxml
+    - ensembl/icc/phyldog
