@@ -37,7 +37,7 @@
         - "homebrew/science/cd-hit"
         - "ensembl/ensembl/pantherscore"
         - "ensembl/ensembl/enredo"
-        - "ensembl/ensembl/phyldog"
-        ## ICC dependencies cannot be described here (yet ?)
-        #- "ensembl/homebrew-icc/raxml"
-        #- "ensembl/homebrew-icc/examl"
+        ## ICC dependencies cannot be described here they must be compiled away from here
+        #- "ensembl/icc/raxml"
+        #- "ensembl/icc/examl"
+        #- "ensembl/icc/phyldog"
