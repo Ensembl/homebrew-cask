@@ -1,8 +1,8 @@
 ---
 "perl-clibs":
-    version: 3
+    version: 4
     deps:
         - "ensembl/ensembl/mysql-client"
         - "ensembl/ensembl/kent"
-        - "ensembl/ensembl/htslib"
+        - "ensembl/ensembl/htslib@131"
         - "ensembl/ensembl/postgres-client"
