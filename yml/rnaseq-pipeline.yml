@@ -1,8 +1,8 @@
 ---
 "rnaseq-pipeline":
-    version: 1
+    version: 2
     deps:
-        - "ensembl/ensembl/samtools"
+        - "homebrew/science/samtools"
         - "ensembl/ensembl/exonerate09"
         - "ensembl/ensembl/bwa-051mt"
         - "ensembl/ensembl/ensc"
