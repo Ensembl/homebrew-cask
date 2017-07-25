@@ -1,5 +1,6 @@
 ---
 "basic-dependencies-from-source":
-    version: 1
+    version: 2
     deps:
         - "gettext"
+        - "pcre"
