@@ -1,10 +1,16 @@
 ---
 # Required for Maker
 "eg-maker":
-    version: 1
+    version: 2
     deps:
         - "gsl"
         - "homebrew/science/suite-sparse"
         - "homebrew/science/lp-solve"
         - "formula" : "homebrew/science/augustus"
           "options" : ["with-cgp"]
+        - "ensembl/ensembl/exonerate22"
+        - "ensembl/ensembl/blast"
+        - "ensembl/ensembl/repeatmasker"
+        - "homebrew/science/snap"
+        - "formula" : "homebrew/science/maker"
+          "options" : ["without-blast", "without-exonerate", "without-repeatmasker", "without-snap"]
