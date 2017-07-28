@@ -1,0 +1,5 @@
+---
+"ehive-deps":
+  version: 1
+  deps:
+    - graphviz
