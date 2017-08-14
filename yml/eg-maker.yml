@@ -1,7 +1,7 @@
 ---
 # Required for Maker
 "eg-maker":
-    version: 2
+    version: 3
     deps:
         - "gsl"
         - "homebrew/science/suite-sparse"
@@ -12,5 +12,4 @@
         - "ensembl/ensembl/blast"
         - "ensembl/ensembl/repeatmasker"
         - "homebrew/science/snap"
-        - "formula" : "homebrew/science/maker"
-          "options" : ["without-blast", "without-exonerate", "without-repeatmasker", "without-snap"]
+        - "ensembl/ensembl/maker"

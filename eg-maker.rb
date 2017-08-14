@@ -7,7 +7,7 @@ class EgMaker < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the EgMaker formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '2'
+  version '3'
 
   depends_on 'gsl'
   depends_on 'homebrew/science/suite-sparse'
@@ -17,7 +17,7 @@ class EgMaker < Formula
   depends_on 'ensembl/ensembl/blast'
   depends_on 'ensembl/ensembl/repeatmasker'
   depends_on 'homebrew/science/snap'
-  depends_on 'homebrew/science/maker' => ["without-blast", "without-exonerate", "without-repeatmasker", "without-snap"]
+  depends_on 'ensembl/ensembl/maker'
 
   def install
     File.open('eg-maker', 'w') { |file|
