@@ -40,3 +40,4 @@
         - "ensembl/ensembl/raxml"
         - "ensembl/ensembl/examl"
         - "ensembl/ensembl/phyldog"
+        - "ensembl/ensembl/hal"
