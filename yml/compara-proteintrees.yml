@@ -1,11 +1,14 @@
 ---
 "compara-proteintrees":
-    version: 0.1
+    version: 0.2
     deps:
         - "homebrew/science/hmmer"
         - "homebrew/science/hmmer2"
         - "ensembl/ensembl/blast"
         - "homebrew/science/mafft"
+        - "homebrew/science/kalign"
+        - "homebrew/science/muscle"
+        - "homebrew/science/clustal-w"
         - "ensembl/ensembl/t-coffee"
         - "ensembl/ensembl/hclustersg"
         - "ensembl/ensembl/treebest"
@@ -19,5 +22,6 @@
         - "ensembl/ensembl/prottest3"
         - "homebrew/science/trimal"
         - "ensembl/ensembl/cafe"
+        - "ensembl/ensembl/prank"
         - "homebrew/science/cd-hit"
         - "ensembl/ensembl/pantherscore"

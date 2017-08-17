@@ -1,6 +1,6 @@
 ---
 "compara":
-    version: 0.3
+    version: 0.4
     deps:
         - "ensembl/ensembl/exonerate22"
         - "homebrew/science/infernal"
@@ -8,6 +8,9 @@
         - "homebrew/science/hmmer2"
         - "ensembl/ensembl/blast"
         - "homebrew/science/mafft"
+        - "homebrew/science/kalign"
+        - "homebrew/science/muscle"
+        - "homebrew/science/clustal-w"
         - "ensembl/ensembl/t-coffee"
         - "ensembl/ensembl/hclustersg"
         - "ensembl/ensembl/treebest"
