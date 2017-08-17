@@ -1,5 +1,6 @@
 ---
-"useful-commands":`
-  version: 1
+"useful-commands":
+  version: 2
   deps:
     - jq
+    - bedtools
