@@ -1,0 +1,5 @@
+---
+"variation":
+    version: 1
+    deps:
+        - "homebrew/science/bcftools"
