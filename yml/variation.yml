@@ -4,3 +4,4 @@
     deps:
         - "homebrew/science/bcftools"
         - "homebrew/science/vcftools"
+        - "ensembl/ensembl/gvf_validator"
