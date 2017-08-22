@@ -7,9 +7,9 @@ class PerlClibs < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the PerlClibs formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '5'
+  version '6'
 
-  depends_on 'ensembl/ensembl/mysql-client'
+  depends_on 'ensembl/ensembl/percona-client'
   depends_on 'ensembl/ensembl/kent'
   depends_on 'ensembl/ensembl/htslib131'
   depends_on 'ensembl/ensembl/postgres-client'
