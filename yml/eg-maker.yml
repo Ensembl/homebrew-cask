@@ -5,7 +5,7 @@
     deps:
         - "gsl"
         - "suite-sparse"
-        - "homebrew/science/lp-solve"
+        - "homebrew/science/lp_solve"
         - "formula" : "homebrew/science/augustus"
           "options" : ["with-cgp"]
         - "ensembl/ensembl/exonerate22"
