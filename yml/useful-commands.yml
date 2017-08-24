@@ -1,6 +1,7 @@
 ---
 "useful-commands":
-  version: 2
+  version: 3
   deps:
     - jq
     - bedtools
+    - ack
