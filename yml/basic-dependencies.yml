@@ -14,3 +14,5 @@
           "options" : ["with-libgdbm-compat"]
         - "ant"
         - "maven"
+        - "formula" : "open-mpi"
+          "options" : ["with-mpi-thread-multiple", "with-cxx-bindings", "c+=11"]
