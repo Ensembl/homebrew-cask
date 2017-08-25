@@ -6,8 +6,7 @@
         - "gsl"
         - "suite-sparse"
         - "homebrew/science/lp_solve"
-        - "formula" : "homebrew/science/augustus"
-          "options" : ["with-cgp"]
+        - "ensembl/ensembl/augustus"
         - "ensembl/ensembl/exonerate22"
         - "ensembl/ensembl/blast"
         - "ensembl/ensembl/repeatmasker"
