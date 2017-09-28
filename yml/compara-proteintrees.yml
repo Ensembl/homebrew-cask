@@ -1,6 +1,6 @@
 ---
 "compara-proteintrees":
-    version: 0.2
+    version: 0.3
     deps:
         - "homebrew/science/hmmer"
         - "homebrew/science/hmmer2"
@@ -25,3 +25,4 @@
         - "ensembl/ensembl/prank"
         - "homebrew/science/cd-hit"
         - "ensembl/ensembl/pantherscore"
+        - "homebrew/science/cd-hit"
