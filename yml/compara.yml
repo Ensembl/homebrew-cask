@@ -1,6 +1,6 @@
 ---
 "compara":
-    version: 0.5
+    version: 0.6
     deps:
         - "ensembl/ensembl/exonerate22"
         - "homebrew/science/infernal"
@@ -45,3 +45,4 @@
         - "ensembl/ensembl/phyldog"
         - "ensembl/ensembl/hal"
         - "ensembl/ensembl/progressive_cactus"
+        - "homebrew/science/cd-hit"
