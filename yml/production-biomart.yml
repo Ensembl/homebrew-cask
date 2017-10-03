@@ -1,0 +1,6 @@
+---
+"production-biomart":
+    version: 1
+    deps:
+        - "ensembl/web/httpd22"
+        - "ensembl/web/mod_perl"
