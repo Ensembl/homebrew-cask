@@ -1,0 +1,7 @@
+---
+"production-infrastructure":
+    version: 1
+    deps:
+        - "erlang"
+
+
