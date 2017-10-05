@@ -1,7 +1,6 @@
 ---
 "production-biomart":
-    version: 3
+    version: 4
     deps:
-        - "mawk"
         - "ensembl/web/httpd22"
         - "ensembl/web/mod_perl"
