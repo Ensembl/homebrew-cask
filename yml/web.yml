@@ -1,0 +1,44 @@
+---
+"web":
+  "version" : 1
+  "deps" :
+    # General dependencies
+    - "perl"
+    - "python"
+    - "jdk"
+    - "git"
+    - 
+      "formula" : "cmake"
+      "options" : ["without-docs"]
+    - 
+      "formula" : "fontconfig"
+      "options" : ["without-docs"]
+    - "cpanm"
+    # Web server/website general dependencies
+    - 
+      "formula" : "homebrew/nginx/nginx-full"
+      "options" : ["with-set-misc-module"]
+    - "ensembl/ensembl/percona-client"
+    - "ensembl/web/mod_perl"
+    - "memcached"
+    # Website gui dependnecies
+    - "libgd"
+    - "ImageMagick"
+    - "pngcrush"
+    - "zopfil"
+    - "libsass"
+    - "sassc"
+    - "graphviz"
+    # Additional bifo libraries and binaries
+    - "homebrew/science/genewise"
+    - "homebrew/science/emboss"
+    - "homebrew/science/htslib"
+    - "homebrew/science/samtools"
+    - "ensembl/ensembl/r2r"
+    - "ensembl/ensembl/hal"
+    - "ensembl/ensembl/bioperl-169"
+    - "ensembl/ensembl/kent"
+    - "ensembl/ensembl/blast"
+    -
+      "formula" : "ensembl/ensembl/repeatmasker"
+      "options" : ["with-perl", "with-dfam", "without-phrap", "without-repbase"]
