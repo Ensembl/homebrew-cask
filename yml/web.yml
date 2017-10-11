@@ -25,7 +25,7 @@
     - "libgd"
     - "ImageMagick"
     - "pngcrush"
-    - "zopfill"
+    - "ensembl/ensembl/zopfil"
     - "libsass"
     - "sassc"
     - "graphviz"
