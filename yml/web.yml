@@ -1,10 +1,10 @@
 ---
 "web":
-  "version" : 1
+  "version" : 2
   "deps" :
     # General dependencies
     - "perl"
-    - "python"
+    # - "python"
     - "jdk"
     - "git"
     - 
