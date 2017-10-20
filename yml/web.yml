@@ -15,6 +15,7 @@
       "options" : ["without-docs"]
     - "cpanm"
     # Web server/website general dependencies
+    - "homebrew/nginx/set-misc-nginx-module"
     - "homebrew/nginx/ngx-devel-kit"
     - 
       "formula" : "homebrew/nginx/nginx-full"
