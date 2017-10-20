@@ -1,6 +1,6 @@
 ---
-"web":
-  "version" : 2
+"web-base":
+  "version" : 3
   "deps" :
     # General dependencies
     - "perl"
@@ -20,9 +20,17 @@
     - 
       "formula" : "homebrew/nginx/nginx-full"
       "options" : ["with-set-misc-module"]
+"web-perllibs":
+  "version" : 1
+  "deps" :
     - "ensembl/ensembl/percona-client"
     - "ensembl/web/mod_perl"
     - "memcached"
+    - "ensembl/ensembl/kent"
+    - "homebrew/science/htslib"
+"web-gui":
+  "version" : 1
+  "deps" :
     # Website gui dependnecies
     - "libgd"
     - "ImageMagick"
@@ -31,15 +39,16 @@
     - "libsass"
     - "sassc"
     - "graphviz"
+"web-bifo":
+  "version" : 1
+  "deps" :
     # Additional bifo libraries and binaries
     - "homebrew/science/genewise"
     - "homebrew/science/emboss"
-    - "homebrew/science/htslib"
     - "homebrew/science/samtools"
     - "ensembl/ensembl/r2r"
     - "ensembl/ensembl/hal"
     - "ensembl/ensembl/bioperl-169"
-    - "ensembl/ensembl/kent"
     - "ensembl/ensembl/blast"
     -
       "formula" : "ensembl/ensembl/repeatmasker"
