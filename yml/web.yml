@@ -29,7 +29,7 @@
     - "ensembl/ensembl/kent"
     - "homebrew/science/htslib"
 "web-gui":
-  "version" : 
+  "version" : 2
   "deps" :
     # Website gui dependnecies
     - "libgd"
