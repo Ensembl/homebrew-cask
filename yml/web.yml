@@ -29,11 +29,11 @@
     - "ensembl/ensembl/kent"
     - "homebrew/science/htslib"
 "web-gui":
-  "version" : 1
+  "version" : 
   "deps" :
     # Website gui dependnecies
     - "libgd"
-    - "ImageMagick"
+    - "imagemagick"
     - "pngcrush"
     - "ensembl/ensembl/zopfli"
     - "libsass"
