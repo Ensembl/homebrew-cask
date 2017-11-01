@@ -1,13 +1,13 @@
 ---
 "compara-ncrnatrees":
-    version: 0.1
+    version: 0.2
     deps:
         - "homebrew/science/infernal"
         - "homebrew/science/mafft"
         - "ensembl/ensembl/treebest"
         - "homebrew/science/quicktree"
         - "ensembl/ensembl/ktreedist"
-        - "ensembl/ensembl/fasttree"
+        - "homebrew/science/fasttree"
         - "ensembl/ensembl/cafe"
         - "ensembl/ensembl/prank"
         - "ensembl/ensembl/r2r"

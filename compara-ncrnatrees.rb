@@ -7,14 +7,14 @@ class ComparaNcrnatrees < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the ComparaNcrnatrees formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '0.1'
+  version '0.2'
 
   depends_on 'homebrew/science/infernal'
   depends_on 'homebrew/science/mafft'
   depends_on 'ensembl/ensembl/treebest'
   depends_on 'homebrew/science/quicktree'
   depends_on 'ensembl/ensembl/ktreedist'
-  depends_on 'ensembl/ensembl/fasttree'
+  depends_on 'homebrew/science/fasttree'
   depends_on 'ensembl/ensembl/cafe'
   depends_on 'ensembl/ensembl/prank'
   depends_on 'ensembl/ensembl/r2r'

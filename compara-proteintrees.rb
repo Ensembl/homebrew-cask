@@ -7,7 +7,7 @@ class ComparaProteintrees < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the ComparaProteintrees formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '0.3'
+  version '0.4'
 
   depends_on 'homebrew/science/hmmer'
   depends_on 'homebrew/science/hmmer2'
@@ -25,7 +25,7 @@ class ComparaProteintrees < Formula
   depends_on 'ensembl/ensembl/raxml-get-patterns'
   depends_on 'ensembl/ensembl/noisy'
   depends_on 'ensembl/ensembl/notung'
-  depends_on 'ensembl/ensembl/fasttree'
+  depends_on 'homebrew/science/fasttree'
   depends_on 'ensembl/ensembl/prottest3'
   depends_on 'homebrew/science/trimal'
   depends_on 'ensembl/ensembl/cafe'
