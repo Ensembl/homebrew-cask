@@ -27,7 +27,7 @@
     - "ensembl/web/mod_perl"
     - "memcached"
     - "ensembl/ensembl/kent"
-    - "homebrew/science/htslib"
+    - "htslib"
 "web-gui":
   "version" : 2
   "deps" :
