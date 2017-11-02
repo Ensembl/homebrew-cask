@@ -1,6 +1,6 @@
 ---
 "compara-proteintrees":
-    version: 0.3
+    version: 0.4
     deps:
         - "homebrew/science/hmmer"
         - "homebrew/science/hmmer2"
@@ -18,7 +18,7 @@
         - "ensembl/ensembl/raxml-get-patterns"
         - "ensembl/ensembl/noisy"
         - "ensembl/ensembl/notung"
-        - "ensembl/ensembl/fasttree"
+        - "homebrew/science/fasttree"
         - "ensembl/ensembl/prottest3"
         - "homebrew/science/trimal"
         - "ensembl/ensembl/cafe"

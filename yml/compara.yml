@@ -1,6 +1,6 @@
 ---
 "compara":
-    version: 0.6
+    version: 0.7
     deps:
         - "ensembl/ensembl/exonerate22"
         - "homebrew/science/infernal"
@@ -22,7 +22,7 @@
         - "ensembl/ensembl/notung"
         - "ensembl/ensembl/pecan"
         - "ensembl/ensembl/ortheus"
-        - "ensembl/ensembl/fasttree"
+        - "homebrew/science/fasttree"
         - "ensembl/ensembl/prottest3"
         - "homebrew/science/trimal"
         - "ensembl/ensembl/badirate"

@@ -7,7 +7,7 @@ class Compara < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the Compara formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '0.6'
+  version '0.7'
 
   depends_on 'ensembl/ensembl/exonerate22'
   depends_on 'homebrew/science/infernal'
@@ -29,7 +29,7 @@ class Compara < Formula
   depends_on 'ensembl/ensembl/notung'
   depends_on 'ensembl/ensembl/pecan'
   depends_on 'ensembl/ensembl/ortheus'
-  depends_on 'ensembl/ensembl/fasttree'
+  depends_on 'homebrew/science/fasttree'
   depends_on 'ensembl/ensembl/prottest3'
   depends_on 'homebrew/science/trimal'
   depends_on 'ensembl/ensembl/badirate'
