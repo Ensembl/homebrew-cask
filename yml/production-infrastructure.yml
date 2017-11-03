@@ -1,8 +1,8 @@
 ---
 "production-infrastructure":
-    version: 2
+    version: 3
     deps:
         - "erlang"
-        - "ensembl/ensembl/nginx"
+        - "nginx"
 
 
