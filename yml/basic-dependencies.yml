@@ -5,7 +5,7 @@
         - "git"
         - "autoconf"
         - "ack"
-        - "jdk"
+        - "jdk@8"
         - "bzip2"
         - "readline"
         - "sqlite"

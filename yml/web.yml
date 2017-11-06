@@ -5,7 +5,7 @@
     # General dependencies
     - "perl"
     # - "python"
-    - "jdk"
+    - "jdk@8"
     - "git"
     - 
       "formula" : "cmake"
