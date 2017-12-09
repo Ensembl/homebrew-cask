@@ -32,7 +32,6 @@ class ComparaProteintrees < Formula
   depends_on 'ensembl/ensembl/prank'
   depends_on 'homebrew/science/cd-hit'
   depends_on 'ensembl/ensembl/pantherscore'
-  depends_on 'homebrew/science/cd-hit'
 
   def install
     File.open('compara-proteintrees', 'w') { |file|

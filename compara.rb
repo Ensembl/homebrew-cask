@@ -52,7 +52,6 @@ class Compara < Formula
   depends_on 'ensembl/ensembl/phyldog'
   depends_on 'ensembl/ensembl/hal'
   depends_on 'ensembl/ensembl/progressive_cactus'
-  depends_on 'homebrew/science/cd-hit'
 
   def install
     File.open('compara', 'w') { |file|
