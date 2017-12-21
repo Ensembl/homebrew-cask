@@ -1,6 +1,6 @@
 ---
 "compara":
-    version: 0.7
+    version: 0.8
     deps:
         - "ensembl/ensembl/exonerate22"
         - "homebrew/science/infernal"
