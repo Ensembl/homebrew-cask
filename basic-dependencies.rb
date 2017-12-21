@@ -20,7 +20,7 @@ class BasicDependencies < Formula
   depends_on 'gdbm' => ["with-libgdbm-compat"]
   depends_on 'ant'
   depends_on 'maven'
-  depends_on 'open-mpi' => ["with-mpi-thread-multiple", "with-cxx-bindings", "c+=11"]
+  depends_on 'open-mpi' => ["with-mpi-thread-multiple", "with-cxx-bindings", "c++11"]
 
   def install
     File.open('basic-dependencies', 'w') { |file|
