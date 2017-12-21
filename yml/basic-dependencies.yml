@@ -1,6 +1,6 @@
 ---
 "basic-dependencies":
-    version: 7
+    version: 8
     deps:
         - "git"
         - "autoconf"
@@ -15,4 +15,4 @@
         - "ant"
         - "maven"
         - "formula" : "open-mpi"
-          "options" : ["with-mpi-thread-multiple", "with-cxx-bindings", "c+=11"]
+          "options" : ["with-mpi-thread-multiple", "with-cxx-bindings", "c++11"]
