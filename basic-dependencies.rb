@@ -7,7 +7,7 @@ class BasicDependencies < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the BasicDependencies formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '7'
+  version '8'
 
   depends_on 'git'
   depends_on 'autoconf'
