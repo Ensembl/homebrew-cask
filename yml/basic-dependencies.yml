@@ -1,6 +1,6 @@
 ---
 "basic-dependencies":
-    version: 8
+    version: 9
     deps:
         - "git"
         - "autoconf"
@@ -9,7 +9,6 @@
         - "bzip2"
         - "readline"
         - "sqlite"
-        - "berkeley-db"
         - "formula" : "gdbm"
           "options" : ["with-libgdbm-compat"]
         - "ant"
@@ -18,6 +17,6 @@
           "options" : ["with-mpi-thread-multiple", "with-cxx-bindings", "c++11"]
 # Needed to get away from the issues of berkeley-db and berkeley-db@4 clashes
 "pre-flight":
-    version: 1
+    version: 2
     deps:
-      - python
+      - berkeley-db 
