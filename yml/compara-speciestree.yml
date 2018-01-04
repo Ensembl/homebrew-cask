@@ -1,0 +1,7 @@
+---
+"compara-speciestree":
+    version: 0.1
+    deps:
+        - "homebrew/science/mash"
+        - "ensembl/ensembl/rapidnj"
+        - "ensembl/ensembl/erable"
