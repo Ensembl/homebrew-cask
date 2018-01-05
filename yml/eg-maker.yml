@@ -1,14 +1,14 @@
 ---
 # Required for Maker
 "eg-maker":
-    version: 4
+    version: 5
     deps:
         - "gsl"
         - "suite-sparse"
-        - "homebrew/science/lp_solve"
-        - "ensembl/ensembl/augustus"
-        - "ensembl/ensembl/exonerate22"
-        - "ensembl/ensembl/blast"
-        - "ensembl/ensembl/repeatmasker"
-        - "homebrew/science/snap"
-        - "ensembl/ensembl/maker"
+        - "ensembl/external/lp_solve"
+        - "ensembl/external/augustus"
+        - "ensembl/external/exonerate22"
+        - "ensembl/external/blast"
+        - "ensembl/external/repeatmasker"
+        - "ensembl/external/snap"
+        - "ensembl/external/maker"

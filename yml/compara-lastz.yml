@@ -1,6 +1,6 @@
 ---
 "compara-lastz":
-    version: 0.1
+    version: 0.2
     deps:
-        - "homebrew/science/lastz"
-        - "ensembl/ensembl/kent"
+        - "ensembl/external/lastz"
+        - "ensembl/external/kent"

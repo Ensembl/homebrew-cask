@@ -1,6 +1,6 @@
 ---
 "eg-rna-features":
-    version: 1
+    version: 2
     deps:
-        - "homebrew/science/infernal"
-        - "homebrew/science/trnascan"
+        - "ensembl/external/infernal"
+        - "ensembl/external/trnascan"

@@ -1,16 +1,16 @@
 ---
 "compara-epo":
-    version: 0.1
+    version: 0.2
     deps:
-        - "ensembl/ensembl/exonerate22"
+        - "ensembl/external/exonerate22"
         - "homebrew/science/hmmer"
-        - "ensembl/ensembl/blast"
+        - "ensembl/external/blast"
         - "ensembl/ensembl/treebest"
         - "ensembl/ensembl/pecan"
         - "ensembl/ensembl/ortheus"
         - "ensembl/ensembl/gerp"
         - "ensembl/ensembl/phast"
-        - "ensembl/ensembl/kent"
+        - "ensembl/external/kent"
         - "ensembl/ensembl/parsimonator"
         - "ensembl/ensembl/cndsrc"
         - "ensembl/ensembl/semphy"

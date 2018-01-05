@@ -1,10 +1,10 @@
 ---
 # Required for FileDump* and LoadGFF3 pipelines
 "eg-file-io":
-    version: 3
+    version: 4
     deps:
         - "formula": "fontconfig"
           "options": ["without-docs"]
-        - "homebrew/science/genometools"
+        - "genometools"
         - "ensembl/ensembl/maftools"
-        - "homebrew/science/newick-utils"
+        - "ensembl/external/newick-utils"
