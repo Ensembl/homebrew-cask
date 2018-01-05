@@ -1,6 +1,6 @@
 ---
 "compara-epo":
-    version: 0.2
+    version: 0.3
     deps:
         - "ensembl/external/exonerate22"
         - "ensembl/external/hmmer"
