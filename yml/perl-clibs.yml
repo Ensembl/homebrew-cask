@@ -1,8 +1,8 @@
 ---
 "perl-clibs":
-    version: 7
+    version: 8
     deps:
         - "ensembl/external/percona-client"
         - "ensembl/external/kent"
         - "ensembl/external/htslib131"
-        - "ensembl/external/postgres-client"
+        - "ensembl/ensembl/postgres-client"
