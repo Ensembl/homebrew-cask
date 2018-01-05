@@ -24,6 +24,6 @@
         - "ensembl/external/repeatmodeler"
         - "ensembl/external/repeatmasker"
         - "ensembl/moonshine/tcdust"
-        - "sratoolkit"
+        - "ensembl/external/sratoolkit"
         - "ensembl/ensembl/aspera-client"
 
