@@ -1,6 +1,6 @@
 ---
 # Required for CoreStatistics pipeline
 "eg-core-stats":
-    version: 1
+    version: 2
     deps:
-        - "ensembl/ensembl/emboss"
+        - "ensembl/external/emboss"

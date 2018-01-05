@@ -1,11 +1,11 @@
 ---
 "rnaseq-pipeline":
-    version: 2
+    version: 3
     deps:
-        - "homebrew/science/samtools"
-        - "ensembl/ensembl/exonerate09"
-        - "ensembl/ensembl/bwa-051mt"
+        - "samtools"
+        - "ensembl/external/exonerate09"
+        - "ensembl/external/bwa-051mt"
         - "ensembl/ensembl/ensc"
         - "ensembl/ensembl/picard-tools"
         - "ensembl/ensembl/bioperl-161"
-        - "ensembl/ensembl/blast"
+        - "ensembl/external/blast"

@@ -1,5 +1,5 @@
 ---
 "cross-references":
-    version: 1
+    version: 2
     deps:
-        - "ensembl/ensembl/exonerate22"
+        - "ensembl/external/exonerate22"

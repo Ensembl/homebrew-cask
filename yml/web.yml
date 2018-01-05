@@ -21,12 +21,12 @@
       "formula" : "homebrew/nginx/nginx-full"
       "options" : ["with-set-misc-module"]
 "web-perllibs":
-  "version" : 1
+  "version" : 2
   "deps" :
-    - "ensembl/ensembl/percona-client"
+    - "ensembl/external/percona-client"
     - "ensembl/web/mod_perl"
     - "memcached"
-    - "ensembl/ensembl/kent"
+    - "ensembl/external/kent"
     - "htslib"
 "web-gui":
   "version" : 2
@@ -40,16 +40,16 @@
     - "sassc"
     - "graphviz"
 "web-bifo":
-  "version" : 1
+  "version" : 2
   "deps" :
     # Additional bifo libraries and binaries
-    - "homebrew/science/genewise"
-    - "homebrew/science/emboss"
-    - "homebrew/science/samtools"
+    - "ensembl/external/genewise"
+    - "ensembl/external/emboss"
+    - "samtools"
     - "ensembl/ensembl/r2r"
     - "ensembl/ensembl/hal"
     - "ensembl/ensembl/bioperl-169"
-    - "ensembl/ensembl/blast"
+    - "ensembl/external/blast"
     -
-      "formula" : "ensembl/ensembl/repeatmasker"
+      "formula" : "ensembl/external/repeatmasker"
       "options" : ["with-perl", "with-dfam", "without-phrap", "without-repbase"]

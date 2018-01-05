@@ -1,7 +1,7 @@
 ---
 "variation":
-    version: 1
+    version: 2
     deps:
-        - "homebrew/science/bcftools"
-        - "homebrew/science/vcftools"
+        - "bcftools"
+        - "vcftools"
         - "ensembl/ensembl/gvf_validator"
