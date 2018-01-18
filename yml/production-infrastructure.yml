@@ -1,8 +1,8 @@
 ---
 "production-infrastructure":
-    version: 4
+    version: 5
     deps:
         - "erlang"
-        - "nginx-full"
-
-
+        -
+          "formula" : "nginx"
+          "options" : ["with-http_sub_module"]
