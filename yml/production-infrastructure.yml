@@ -1,7 +1,6 @@
 ---
 "production-infrastructure":
-    version: 6
+    version: 7
     deps:
         - "erlang"
-        - "formula" : "homebrew/nginx/nginx-full"
-          "options" : ["with-http_sub_module"]
+        - "ensembl/web/nginx-full"
