@@ -1,6 +1,8 @@
 ---
 "production-infrastructure":
-    version: 7
+    version: 8
     deps:
         - "erlang"
-        - "ensembl/web/nginx-full"
+        -
+          "formula" : "ensembl/web/nginx-full"
+          "options" : ["with-sub"]
