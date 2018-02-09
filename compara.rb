@@ -7,7 +7,7 @@ class Compara < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the Compara formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '0.10'
+  version '10'
 
   depends_on 'ensembl/external/exonerate22'
   depends_on 'ensembl/external/infernal'

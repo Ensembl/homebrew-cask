@@ -1,6 +1,6 @@
 ---
 "compara-lastz":
-    version: 0.2
+    version: 2
     deps:
         - "ensembl/external/lastz"
         - "ensembl/external/kent"

@@ -1,6 +1,6 @@
 ---
 "compara-speciestree":
-    version: 0.2
+    version: 2
     deps:
         - "ensembl/external/mash"
         - "ensembl/ensembl/rapidnj"

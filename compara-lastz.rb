@@ -7,7 +7,7 @@ class ComparaLastz < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the ComparaLastz formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '0.2'
+  version '2'
 
   depends_on 'ensembl/external/lastz'
   depends_on 'ensembl/external/kent'

@@ -1,6 +1,6 @@
 ---
 "compara-ncrnatrees":
-    version: 0.3
+    version: 3
     deps:
         - "ensembl/external/infernal"
         - "ensembl/external/mafft"

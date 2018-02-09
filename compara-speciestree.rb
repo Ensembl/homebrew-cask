@@ -7,7 +7,7 @@ class ComparaSpeciestree < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the ComparaSpeciestree formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '0.2'
+  version '2'
 
   depends_on 'ensembl/external/mash'
   depends_on 'ensembl/ensembl/rapidnj'

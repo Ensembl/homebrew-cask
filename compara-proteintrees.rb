@@ -7,7 +7,7 @@ class ComparaProteintrees < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the ComparaProteintrees formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '0.6'
+  version '6'
 
   depends_on 'ensembl/external/hmmer'
   depends_on 'ensembl/external/hmmer2'
