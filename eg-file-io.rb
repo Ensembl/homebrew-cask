@@ -11,7 +11,7 @@ class EgFileIo < Formula
 
   depends_on 'fontconfig' => ["without-docs"]
   depends_on 'genometools'
-  depends_on 'ensembl/ensembl/maftools'
+  depends_on 'ensembl/external/maftools'
   depends_on 'ensembl/external/newick-utils'
 
   def install
