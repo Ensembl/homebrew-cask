@@ -1,8 +1,9 @@
 ---
 "production-infrastructure":
-    version: 8
+    version: 9
     deps:
         - "erlang"
+        - "rabbitmq"
         -
           "formula" : "ensembl/web/nginx-full"
           "options" : ["with-sub"]
