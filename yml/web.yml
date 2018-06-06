@@ -7,18 +7,18 @@
     # - "python"
     - "jdk@8"
     - "git"
-    - 
+    -
       "formula" : "cmake"
       "options" : ["without-docs"]
-    - 
+    -
       "formula" : "fontconfig"
       "options" : ["without-docs"]
     - "cpanm"
     # Web server/website general dependencies
-    - "homebrew/nginx/set-misc-nginx-module"
-    - "homebrew/nginx/ngx-devel-kit"
-    - 
-      "formula" : "homebrew/nginx/nginx-full"
+    # - "homebrew/nginx/set-misc-nginx-module"
+    # - "homebrew/nginx/ngx-devel-kit"
+    -
+      "formula" : "ensembl/web/nginx-full"
       "options" : ["with-set-misc-module"]
 "web-perllibs":
   "version" : 2
