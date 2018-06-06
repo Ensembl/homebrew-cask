@@ -19,7 +19,7 @@
     # - "homebrew/nginx/ngx-devel-kit"
     -
       "formula" : "ensembl/web/nginx-full"
-      "options" : ["with-set-misc-module"]
+      "options" : ["with-misc-module"]
 "web-perllibs":
   "version" : 2
   "deps" :
