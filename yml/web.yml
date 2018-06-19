@@ -1,6 +1,6 @@
 ---
 "web-base":
-  "version" : 3
+  "version" : 4
   "deps" :
     # General dependencies
     - "perl"
@@ -19,7 +19,7 @@
     # - "homebrew/nginx/ngx-devel-kit"
     -
       "formula" : "ensembl/web/nginx-full"
-      "options" : ["with-misc-module"]
+      "options" : ["set-misc-module"]
 "web-perllibs":
   "version" : 2
   "deps" :
