@@ -1,11 +1,11 @@
 ---
 "genebuild-annotation":
-    version: 2.9
+    version: 3.1
     deps:
         - "ensembl/external/exonerate09"
         - "ensembl/external/exonerate22"
         - "ensembl/ensembl/ensc"
-        - "ensembl/ensembl/bioperl-161"
+        - "ensembl/ensembl/bioperl-169"
         - "ensembl/external/blast"
         - "ensembl/ensembl/eponine"
         - "ensembl/external/genewise"
