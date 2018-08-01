@@ -1,10 +1,11 @@
 ---
 "web-base":
-  "version" : 4
+  "version" : 5
   "deps" :
     # General dependencies
-    - "perl"
-    # - "python"
+    - "gcc"
+    - "ensembl/web/perl"
+    - "python"
     - "jdk@8"
     - "git"
     -
