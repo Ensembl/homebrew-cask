@@ -54,3 +54,9 @@
     -
       "formula" : "ensembl/external/repeatmasker"
       "options" : ["with-perl", "with-dfam", "without-phrap", "without-repbase"]
+"web-internal":
+  "version" : 1
+  "deps" :
+    # Webteam dependencies 
+    - "ruby"
+    - "ensembl/ensembl/ensembl-git-tools"
