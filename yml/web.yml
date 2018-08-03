@@ -21,7 +21,7 @@
     -
       "formula" : "ensembl/web/nginx-full"
       "options" : ["set-misc-module"]
-"web-perllibs":
+"web-libsforcpanm":
   "version" : 2
   "deps" :
     - "ensembl/external/percona-client"
