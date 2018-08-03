@@ -30,7 +30,7 @@
     - "ensembl/external/kent"
     - "htslib"
 "web-gui":
-  "version" : 3
+  "version" : 4
   "deps" :
     # Website gui dependnecies
     - "libgd"
@@ -39,7 +39,7 @@
     - "ensembl/ensembl/zopfli"
     - "libsass"
     - "sassc"
-    - "graphviz"
+    - "ensembl/web/graphviz"
     - "ensembl/web/coffeescript"
 "web-bifo":
   "version" : 2
