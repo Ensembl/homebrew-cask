@@ -54,7 +54,7 @@
     - "ensembl/external/blast"
     -
       "formula" : "ensembl/external/repeatmasker"
-      "options" : ["with-perl", "with-dfam", "without-phrap", "without-repbase"]
+      "options" : ["with-dfam", "without-phrap", "without-repbase"]
 "web-internal":
   "version" : 1
   "deps" :
