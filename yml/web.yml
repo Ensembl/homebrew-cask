@@ -22,12 +22,14 @@
       "formula" : "ensembl/web/nginx-full"
       "options" : ["set-misc-module"]
 "web-libsforcpanm":
-  "version" : 2
+  "version" : 3
   "deps" :
     - "ensembl/external/percona-client"
     - "ensembl/web/mod_perl"
     - "memcached"
-    - "ensembl/external/kent"
+    - 
+      "formula" : "ensembl/external/kent"
+      "options" : ["with-web-patches"]
     - "htslib"
 "web-gui":
   "version" : 4
