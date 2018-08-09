@@ -60,8 +60,15 @@
       "options" : ["with-dfam", "without-phrap", "without-repbase"]
     - "ensembl/ensembl/crossmap"
 "web-internal":
-  "version" : 1
+  "version" : 2
   "deps" :
     # Webteam dependencies 
     - "ruby"
     - "ensembl/ensembl/ensembl-git-tools"
+    # Used by REST
+    - "plenv"
+    - "libxml2"
+    # other dependencies
+    - "socat"
+    - "xerces-c"
+    - "corkscrew"
