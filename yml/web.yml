@@ -44,7 +44,7 @@
     - "ensembl/web/graphviz"
     - "ensembl/web/coffeescript"
 "web-bifo":
-  "version" : 2
+  "version" : 3
   "deps" :
     # Additional bifo libraries and binaries
     - "ensembl/external/genewise"
@@ -57,6 +57,7 @@
     -
       "formula" : "ensembl/external/repeatmasker"
       "options" : ["with-dfam", "without-phrap", "without-repbase"]
+    - "ensembl/ensembl/crossmap"
 "web-internal":
   "version" : 1
   "deps" :
