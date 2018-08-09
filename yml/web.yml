@@ -32,7 +32,7 @@
       "options" : ["with-web-patches"]
     - "htslib"
 "web-gui":
-  "version" : 4
+  "version" : 5
   "deps" :
     # Website gui dependnecies
     - "libgd"
@@ -43,6 +43,7 @@
     - "sassc"
     - "ensembl/web/graphviz"
     - "ensembl/web/coffeescript"
+    - "babel"
 "web-bifo":
   "version" : 3
   "deps" :
