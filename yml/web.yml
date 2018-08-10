@@ -32,10 +32,10 @@
       "options" : ["with-web-patches"]
     - "htslib"
 "web-gui":
-  "version" : 5
+  "version" : 6
   "deps" :
     # Website gui dependnecies
-    - "libgd"
+    - "gd"
     - "imagemagick"
     - "pngcrush"
     - "ensembl/ensembl/zopfli"
