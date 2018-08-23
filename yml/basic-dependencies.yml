@@ -1,11 +1,10 @@
 ---
 "basic-dependencies":
-    version: 9
+    version: 10
     deps:
         - "git"
         - "autoconf"
         - "ack"
-        - "jdk@8"
         - "bzip2"
         - "readline"
         - "sqlite"
@@ -15,8 +14,9 @@
         - "maven"
         - "formula" : "open-mpi"
           "options" : ["with-mpi-thread-multiple", "with-cxx-bindings", "c++11"]
-# Needed to get away from the issues of berkeley-db and berkeley-db@4 clashes
+# Needed to get away from the issues of berkeley-db and berkeley-db@4, and jdk and jdk@8 clashes
 "pre-flight":
-    version: 2
+    version: 3
     deps:
       - berkeley-db 
+      - "jdk@8"
