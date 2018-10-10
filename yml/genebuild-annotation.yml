@@ -1,10 +1,11 @@
 ---
 "genebuild-annotation":
-    version: 3.2
+    version: 3.3
     deps:
         - "ensembl/external/exonerate09"
         - "ensembl/external/exonerate22"
         - "ensembl/ensembl/ensc"
+        - "ensembl/ensembl/ensc-annotation-tools"
         - "ensembl/ensembl/bioperl-169"
         - "ensembl/external/blast"
         - "ensembl/ensembl/eponine"
