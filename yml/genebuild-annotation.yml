@@ -1,6 +1,6 @@
 ---
 "genebuild-annotation":
-    version: 3.4
+    version: 3.5
     deps:
         - "ensembl/external/exonerate09"
         - "ensembl/external/exonerate22"
