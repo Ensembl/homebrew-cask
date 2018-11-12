@@ -60,7 +60,7 @@
       "options" : ["with-dfam", "without-phrap", "without-repbase"]
     - "ensembl/ensembl/crossmap"
 "web-internal":
-  "version" : 2
+  "version" : 3
   "deps" :
     # Webteam dependencies 
     - "ruby"
@@ -72,3 +72,4 @@
     - "socat"
     - "xerces-c"
     - "corkscrew"
+    - "screen"
