@@ -1,9 +1,10 @@
 ---
 "genebuild-annotation":
-    version: 3.5
+    version: 3.6
     deps:
         - "ensembl/external/exonerate09"
         - "ensembl/external/exonerate22"
+        - "ensembl/ensembl/cesar"
         - "ensembl/ensembl/ensc"
         - "ensembl/ensembl/ensc-annotation-tools"
         - "ensembl/ensembl/bioperl-169"
