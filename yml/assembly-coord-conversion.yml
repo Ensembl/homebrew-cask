@@ -1,0 +1,5 @@
+---
+"assembly-coord-conversion":
+    version: 1
+    deps:
+        - "ensembl/ensembl/crossmap"
