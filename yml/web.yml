@@ -20,7 +20,7 @@
     # - "homebrew/nginx/ngx-devel-kit"
     -
       "formula" : "ensembl/web/nginx-full"
-      "options" : ["with-set-misc-module"]
+      "options" : ["set-misc-module"]
 "web-libsforcpanm":
   "version" : 3
   "deps" :
