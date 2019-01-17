@@ -1,6 +1,6 @@
 ---
 "protein-features":
-    version: 6
+    version: 7
     deps:
         - "ensembl/ensembl/interproscan"
         - "ensembl/moonshine/seg"
