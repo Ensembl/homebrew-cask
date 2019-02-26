@@ -1,10 +1,10 @@
 ---
 "web-base":
-  "version" : 5
+  "version" : 6
   "deps" :
     # General dependencies
     - "gcc"
-    - "ensembl/web/perl"
+    - "perl"
     - "python"
     - "jdk@8"
     - "git"
@@ -45,7 +45,7 @@
     - "ensembl/web/coffeescript"
     - "babel"
 "web-bifo":
-  "version" : 3
+  "version" : 4
   "deps" :
     # Additional bifo libraries and binaries
     - "ensembl/external/genewise"
@@ -59,6 +59,14 @@
       "formula" : "ensembl/external/repeatmasker"
       "options" : ["with-dfam", "without-phrap", "without-repbase"]
     - "ensembl/ensembl/crossmap"
+    # postgap dependencies
+    - "vcflib"
+    - "vcftools"
+    - "bcftools"
+    - "bedtools"
+    - "gls"
+    - "ensembl/external/wiggletools"
+    - "ensembl/external/libbigwig"
 "web-internal":
   "version" : 3
   "deps" :
