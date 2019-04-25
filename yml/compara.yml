@@ -1,8 +1,8 @@
 ---
 "compara":
-    version: 12
+    version: 13
     deps:
-        - "ensembl/external/exonerate22"
+        - "ensembl/external/exonerate24"
         - "ensembl/external/infernal"
         - "ensembl/external/hmmer"
         - "ensembl/external/hmmer2"
@@ -49,3 +49,4 @@
         - "ensembl/ensembl/rapidnj"
         - "ensembl/ensembl/erable"
         - "ensembl/ensembl/bioperl-run-169"
+        - "samtools"

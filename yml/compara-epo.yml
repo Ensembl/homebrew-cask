@@ -1,8 +1,8 @@
 ---
 "compara-epo":
-    version: 3
+    version: 4
     deps:
-        - "ensembl/external/exonerate22"
+        - "ensembl/external/exonerate24"
         - "ensembl/external/hmmer"
         - "ensembl/external/blast"
         - "ensembl/ensembl/treebest"
@@ -15,3 +15,4 @@
         - "ensembl/ensembl/cndsrc"
         - "ensembl/ensembl/semphy"
         - "ensembl/ensembl/enredo"
+        - "samtools"
