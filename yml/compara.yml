@@ -42,7 +42,6 @@
         - "ensembl/ensembl/raxml"
         - "ensembl/ensembl/examl"
         - "ensembl/ensembl/hal"
-        - "ensembl/ensembl/progressive_cactus"
         - "ensembl/external/mash"
         - "ensembl/ensembl/rapidnj"
         - "ensembl/ensembl/erable"
