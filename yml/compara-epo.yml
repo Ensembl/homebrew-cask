@@ -2,7 +2,7 @@
 "compara-epo":
     version: 3
     deps:
-        - "ensembl/external/exonerate22"
+        - "ensembl/external/exonerate24"
         - "ensembl/external/hmmer"
         - "ensembl/external/blast"
         - "ensembl/ensembl/treebest"

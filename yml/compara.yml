@@ -2,7 +2,7 @@
 "compara":
     version: 12
     deps:
-        - "ensembl/external/exonerate22"
+        - "ensembl/external/exonerate24"
         - "ensembl/external/infernal"
         - "ensembl/external/hmmer"
         - "ensembl/external/hmmer2"
