@@ -15,3 +15,4 @@
         - "ensembl/ensembl/cndsrc"
         - "ensembl/ensembl/semphy"
         - "ensembl/ensembl/enredo"
+        - "samtools"
