@@ -1,6 +1,6 @@
 ---
 "compara-ncrnatrees":
-    version: 3
+    version: 4
     deps:
         - "ensembl/external/infernal"
         - "ensembl/external/mafft"
@@ -12,3 +12,5 @@
         - "ensembl/external/prank"
         - "ensembl/ensembl/r2r"
         - "ensembl/ensembl/parsimonator"
+        - "ensembl/ensembl/raxml"
+        - "ensembl/ensembl/examl"
