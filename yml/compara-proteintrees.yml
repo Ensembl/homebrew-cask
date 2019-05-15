@@ -1,6 +1,6 @@
 ---
 "compara-proteintrees":
-    version: 7
+    version: 8
     deps:
         - "ensembl/external/hmmer"
         - "ensembl/external/hmmer2"
@@ -24,5 +24,7 @@
         - "ensembl/ensembl/cafe"
         - "ensembl/external/prank"
         - "ensembl/external/cd-hit"
+        - "ensembl/ensembl/raxml"
+        - "ensembl/ensembl/examl"
         - "ensembl/ensembl/pantherscore"
         - "ensembl/ensembl/bioperl-run-169"
