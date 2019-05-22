@@ -45,7 +45,7 @@
     - "ensembl/web/coffeescript"
     - "babel"
 "web-bifo":
-  "version" : 4
+  "version" : 5
   "deps" :
     # Additional bifo libraries and binaries
     - "ensembl/external/genewise"
@@ -60,11 +60,11 @@
       "options" : ["with-dfam", "without-phrap", "without-repbase"]
     - "ensembl/ensembl/crossmap"
     # postgap dependencies
-    - "vcflib"
+    - "brewsci/bio/vcflib"
     - "vcftools"
     - "bcftools"
     - "bedtools"
-    - "gls"
+    - "gsl"
     - "ensembl/external/wiggletools"
     - "ensembl/external/libbigwig"
 "web-internal":
