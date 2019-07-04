@@ -1,6 +1,6 @@
 ---
 "compara":
-    version: 13
+    version: 14
     deps:
         - "ensembl/external/exonerate24"
         - "ensembl/external/infernal"
