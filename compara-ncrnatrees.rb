@@ -7,7 +7,7 @@ class ComparaNcrnatrees < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the ComparaNcrnatrees formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '4'
+  version '5'
 
   depends_on 'ensembl/external/infernal'
   depends_on 'ensembl/external/mafft'

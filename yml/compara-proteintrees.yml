@@ -1,6 +1,6 @@
 ---
 "compara-proteintrees":
-    version: 8
+    version: 9
     deps:
         - "ensembl/external/hmmer"
         - "ensembl/external/hmmer2"
