@@ -1,7 +1,8 @@
 ---
 "compara-proteintrees":
-    version: 9
+    version: 10
     deps:
+        - "r"
         - "ensembl/external/hmmer"
         - "ensembl/external/hmmer2"
         - "ensembl/external/blast"
