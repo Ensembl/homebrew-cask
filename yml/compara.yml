@@ -1,7 +1,8 @@
 ---
 "compara":
-    version: 14
+    version: 15
     deps:
+        - "r"
         - "ensembl/external/exonerate24"
         - "ensembl/external/infernal"
         - "ensembl/external/hmmer"
