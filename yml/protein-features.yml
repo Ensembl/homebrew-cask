@@ -1,8 +1,9 @@
 ---
 "protein-features":
-    version: 10
+    version: 11
     deps:
         - "ensembl/ensembl/interproscan"
         - "ensembl/moonshine/seg"
+        - "ensembl/external/openjdk-11"
 
 
