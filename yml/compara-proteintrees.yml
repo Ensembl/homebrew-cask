@@ -1,6 +1,6 @@
 ---
 "compara-proteintrees":
-    version: 10
+    version: 11
     deps:
         - "r"
         - "ensembl/external/hmmer"
