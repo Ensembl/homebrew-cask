@@ -18,6 +18,7 @@ class WebInternal < Formula
   depends_on 'corkscrew'
   depends_on 'screen'
   depends_on 'daemonize'
+  depends_on 'passweb'
 
   def install
     File.open('web-internal', 'w') { |file|
