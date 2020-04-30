@@ -1,6 +1,6 @@
 ---
 "protein-features":
-    version: 14
+    version: 15
     deps:
         - "ensembl/ensembl/interproscan"
         - "ensembl/moonshine/seg"
