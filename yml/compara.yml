@@ -1,6 +1,6 @@
 ---
 "compara":
-    version: 17
+    version: 18
     deps:
         - "r"
         - "ensembl/external/exonerate24"
@@ -48,3 +48,4 @@
         - "ensembl/ensembl/erable"
         - "ensembl/ensembl/bioperl-run-169"
         - "samtools"
+        - "ensembl/external/diamond"
