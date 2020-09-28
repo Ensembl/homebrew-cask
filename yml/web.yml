@@ -83,3 +83,6 @@
     - "screen"
     - "daemonize"
     - "tree"
+    - "lsof"
+    - "strace"
+
