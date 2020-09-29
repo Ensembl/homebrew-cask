@@ -83,6 +83,7 @@
     - "screen"
     - "daemonize"
     - "tree"
+    - "passweb"
     - "lsof"
     - "strace"
 
