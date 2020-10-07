@@ -1,6 +1,6 @@
 ---
 "genebuild-annotation":
-    version: 3.7
+    version: 3.8
     deps:
         - "ensembl/external/exonerate09"
         - "ensembl/external/exonerate22"
@@ -28,4 +28,4 @@
         - "ensembl/moonshine/tcdust"
         - "ensembl/external/sratoolkit"
         - "ensembl/ensembl/aspera-client"
-
+        - "ensembl/ensembl/Red"
