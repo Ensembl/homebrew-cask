@@ -49,3 +49,4 @@
         - "ensembl/ensembl/bioperl-run-169"
         - "samtools"
         - "ensembl/external/diamond"
+        - "ensembl/ensembl/cactus"
