@@ -1,0 +1,5 @@
+"compara-homologyannotation":
+    version: 1
+    deps:
+        - "ensembl/external/blast"
+        - "ensembl/external/diamond"
