@@ -1,6 +1,6 @@
 ---
 "compara":
-    version: 19
+    version: 20
     deps:
         - "r"
         - "ensembl/external/exonerate24"
@@ -50,3 +50,5 @@
         - "samtools"
         - "ensembl/external/diamond"
         - "ensembl/ensembl/cactus"
+        - "fastme"
+        - "ensembl/ensembl/orthofinder"

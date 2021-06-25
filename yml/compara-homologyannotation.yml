@@ -1,5 +1,8 @@
 "compara-homologyannotation":
-    version: 1
+    version: 2
     deps:
         - "ensembl/external/blast"
         - "ensembl/external/diamond"
+        - "fastme"
+        - "ensembl/external/mcl"
+        - "ensembl/ensembl/orthofinder"
