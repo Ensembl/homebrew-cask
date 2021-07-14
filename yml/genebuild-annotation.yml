@@ -31,3 +31,4 @@
         - "ensembl/ensembl/minimap2"
         - "ensembl/ensembl/scallop"
         - "ensembl/ensembl/star-aligner"
+        - "ensembl/ensembl/stringtie"
