@@ -3,6 +3,7 @@
     version: 10
     deps:
         - "git"
+        - "svn"
         - "autoconf"
         - "ack"
         - "bzip2"
@@ -14,9 +15,9 @@
         - "maven"
         - "formula" : "open-mpi"
           "options" : ["with-mpi-thread-multiple", "with-cxx-bindings", "c++11"]
-# Needed to get away from the issues of berkeley-db and berkeley-db@4, and jdk and jdk@8 clashes
+# Needed to get away from the issues of berkeley-db and berkeley-db@4, and jdk and adoptopenjdk clashes
 "pre-flight":
     version: 3
     deps:
       - berkeley-db 
-      - "jdk@8"
+      - "adoptopenjdk"

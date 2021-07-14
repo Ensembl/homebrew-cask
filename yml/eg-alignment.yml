@@ -17,4 +17,3 @@
         - "bwa"
         - "ensembl/external/gmap-gsnap"
         - "ensembl/external/hisat2"
-        - "ensembl/external/tophat"

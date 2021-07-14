@@ -6,5 +6,3 @@
         - "formula": "fontconfig"
           "options": ["without-docs"]
         - "genometools"
-        - "ensembl/ensembl/maftools"
-        - "ensembl/external/newick-utils"

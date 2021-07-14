@@ -6,7 +6,7 @@
         - "ensembl/external/hmmer"
         - "ensembl/external/hmmer2"
         - "ensembl/external/blast"
-        - "ensembl/external/mafft"
+        - "ensembl/external/mafft@7.427"
         - "ensembl/external/kalign"
         - "ensembl/external/muscle"
         - "ensembl/external/clustal-w"

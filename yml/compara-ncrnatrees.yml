@@ -3,7 +3,7 @@
     version: 6
     deps:
         - "ensembl/external/infernal"
-        - "ensembl/external/mafft"
+        - "ensembl/external/mafft@7.427"
         - "ensembl/ensembl/treebest"
         - "ensembl/external/quicktree"
         - "ensembl/ensembl/ktreedist"

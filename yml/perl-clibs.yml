@@ -1,8 +1,11 @@
 ---
 "perl-clibs":
-    version: 8
+    version: 10
     deps:
         - "ensembl/external/percona-client"
         - "ensembl/external/kent"
         - "ensembl/external/htslib131"
         - "ensembl/ensembl/postgres-client"
+        - "ensembl/moonshine/oracle-instant-client"
+        - "libnsl"
+        - "patchelf"

@@ -6,7 +6,7 @@
     - "gcc"
     - "perl"
     - "python"
-    - "jdk@8"
+    - "adoptopenjdk"
     - "git"
     -
       "formula" : "cmake"

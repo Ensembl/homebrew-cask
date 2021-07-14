@@ -5,6 +5,3 @@
         - "erlang"
         - "rabbitmq"
         - "elasticsearch"
-        -
-          "formula" : "ensembl/web/nginx-full"
-          "options" : ["with-sub"]
