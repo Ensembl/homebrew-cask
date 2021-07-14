@@ -12,7 +12,7 @@ class WebBase < Formula
   depends_on 'gcc'
   depends_on 'perl'
   depends_on 'python'
-  depends_on 'jdk@8'
+  depends_on 'adoptopenjdk'
   depends_on 'git'
   depends_on 'cmake' => ["without-docs"]
   depends_on 'fontconfig' => ["without-docs"]

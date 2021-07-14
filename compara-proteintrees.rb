@@ -13,7 +13,7 @@ class ComparaProteintrees < Formula
   depends_on 'ensembl/external/hmmer'
   depends_on 'ensembl/external/hmmer2'
   depends_on 'ensembl/external/blast'
-  depends_on 'ensembl/external/mafft'
+  depends_on 'ensembl/external/mafft@7.427'
   depends_on 'ensembl/external/kalign'
   depends_on 'ensembl/external/muscle'
   depends_on 'ensembl/external/clustal-w'

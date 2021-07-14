@@ -12,7 +12,6 @@ class ProductionInfrastructure < Formula
   depends_on 'erlang'
   depends_on 'rabbitmq'
   depends_on 'elasticsearch'
-  depends_on 'ensembl/web/nginx-full' => ["with-sub"]
 
   def install
     File.open('production-infrastructure', 'w') { |file|

@@ -18,7 +18,6 @@ class EgAlignment < Formula
   depends_on 'bwa'
   depends_on 'ensembl/external/gmap-gsnap'
   depends_on 'ensembl/external/hisat2'
-  depends_on 'ensembl/external/tophat'
 
   def install
     File.open('eg-alignment', 'w') { |file|

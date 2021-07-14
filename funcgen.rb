@@ -9,7 +9,6 @@ class Funcgen < Formula
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
   version '0.2'
 
-  depends_on 'ensembl/ensembl/moods'
   depends_on 'ensembl/ensembl/biosd'
 
   def install

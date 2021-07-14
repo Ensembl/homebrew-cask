@@ -10,7 +10,7 @@ class ComparaNcrnatrees < Formula
   version '6'
 
   depends_on 'ensembl/external/infernal'
-  depends_on 'ensembl/external/mafft'
+  depends_on 'ensembl/external/mafft@7.427'
   depends_on 'ensembl/ensembl/treebest'
   depends_on 'ensembl/external/quicktree'
   depends_on 'ensembl/ensembl/ktreedist'
