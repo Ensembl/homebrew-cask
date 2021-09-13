@@ -1,6 +1,8 @@
 ---
 "utilities":
-    version: 2
+    version: 3
     deps:
         - "unison"
         - "black"
+        - "poetry"
+        - "lftp"
