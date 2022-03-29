@@ -1,7 +1,8 @@
 ---
 "production-infrastructure":
-    version: 10
+    version: 11
     deps:
         - "erlang"
-        - "rabbitmq"
-        - "elasticsearch"
+        -
+          "formula" : "ensembl/web/nginx-full"
+          "options" : ["with-sub"]

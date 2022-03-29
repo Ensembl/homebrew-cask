@@ -7,11 +7,12 @@ class ProductionInfrastructure < Formula
   url 'file://'+File.expand_path(__FILE__)
   desc 'Dependencies for the ProductionInfrastructure formula'
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
-  version '10'
+  version '11'
 
   depends_on 'erlang'
   depends_on 'rabbitmq'
   depends_on 'elasticsearch'
+  depends_on 'ensembl/web/nginx-full' => ["with-sub"]
 
   def install
     File.open('production-infrastructure', 'w') { |file|
