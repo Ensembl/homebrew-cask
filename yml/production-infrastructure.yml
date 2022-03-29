@@ -3,6 +3,3 @@
     version: 11
     deps:
         - "erlang"
-        -
-          "formula" : "ensembl/web/nginx-full"
-          "options" : ["with-sub"]
