@@ -1,5 +1,0 @@
----
-"production-infrastructure":
-    version: 11
-    deps:
-        - "erlang"
