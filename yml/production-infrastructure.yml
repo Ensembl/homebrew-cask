@@ -1,7 +1,0 @@
----
-"production-infrastructure":
-    version: 10
-    deps:
-        - "erlang"
-        - "rabbitmq"
-        - "elasticsearch"
