@@ -1,12 +1,12 @@
 ---
 "web-base":
-  "version" : 6
+  "version" : 7
   "deps" :
     # General dependencies
     - "gcc"
     - "perl"
     - "python"
-    - "adoptopenjdk"
+    - "openjdk"
     - "git"
     -
       "formula" : "cmake"
