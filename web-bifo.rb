@@ -17,7 +17,6 @@ class WebBifo < Formula
   depends_on 'ensembl/ensembl/bioperl-169'
   depends_on 'ensembl/external/blast'
   depends_on 'ensembl/external/repeatmasker' => ["with-dfam", "without-phrap", "without-repbase"]
-  depends_on 'ensembl/ensembl/crossmap'
   depends_on 'brewsci/bio/vcflib'
   depends_on 'vcftools'
   depends_on 'bcftools'

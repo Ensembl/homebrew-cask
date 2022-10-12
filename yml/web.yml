@@ -58,7 +58,6 @@
     -
       "formula" : "ensembl/external/repeatmasker"
       "options" : ["with-dfam", "without-phrap", "without-repbase"]
-    - "ensembl/ensembl/crossmap"
     # postgap dependencies
     - "brewsci/bio/vcflib"
     - "vcftools"
